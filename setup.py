@@ -32,7 +32,7 @@ setup(
       author_email='not-found@localhost.local',
       url='https://github.com/HK-Mattew/python-payeer-asyncio',
       packages=find_packages(),
-      requires=get_requirements(),
+      install_requires=get_requirements(),
       license='MIT license',
       keywords=['payeer', 'payeer asyncio', 'payeer async']
       )
